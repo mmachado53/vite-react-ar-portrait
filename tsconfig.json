@@ -3,5 +3,10 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    "paths": {
+      "three/examples/jsm/*": ["./node_modules/three/examples/jsm/*"]
+    }
+  }
 }
